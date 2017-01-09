@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAC00F431E24047B001FFC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F421E24047B001FFC91 /* AppDelegate.swift */; };
-		FAC00F451E24047B001FFC91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F441E24047B001FFC91 /* ViewController.swift */; };
-		FAC00F481E24047B001FFC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F461E24047B001FFC91 /* Main.storyboard */; };
-		FAC00F4A1E24047B001FFC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F491E24047B001FFC91 /* Assets.xcassets */; };
-		FAC00F4D1E24047B001FFC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F4B1E24047B001FFC91 /* LaunchScreen.storyboard */; };
+		FAC00F631E24055F001FFC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F5B1E24055F001FFC91 /* AppDelegate.swift */; };
+		FAC00F641E24055F001FFC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F5C1E24055F001FFC91 /* Assets.xcassets */; };
+		FAC00F651E24055F001FFC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F5D1E24055F001FFC91 /* LaunchScreen.storyboard */; };
+		FAC00F661E24055F001FFC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F5E1E24055F001FFC91 /* Main.storyboard */; };
+		FAC00F671E24055F001FFC91 /* TexasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F5F1E24055F001FFC91 /* TexasViewController.swift */; };
+		FAC00F681E24055F001FFC91 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F601E24055F001FFC91 /* DemoURL.swift */; };
+		FAC00F691E24055F001FFC91 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC00F611E24055F001FFC91 /* ImageViewController.swift */; };
+		FAC00F6A1E24055F001FFC91 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC00F621E24055F001FFC91 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAC00F3F1E24047B001FFC91 /* Texas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC00F421E24047B001FFC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAC00F441E24047B001FFC91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAC00F471E24047B001FFC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAC00F491E24047B001FFC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAC00F4C1E24047B001FFC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAC00F4E1E24047B001FFC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC00F5B1E24055F001FFC91 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC00F5C1E24055F001FFC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC00F5D1E24055F001FFC91 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC00F5E1E24055F001FFC91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAC00F5F1E24055F001FFC91 /* TexasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TexasViewController.swift; sourceTree = "<group>"; };
+		FAC00F601E24055F001FFC91 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		FAC00F611E24055F001FFC91 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FAC00F621E24055F001FFC91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +59,14 @@
 		FAC00F411E24047B001FFC91 /* Texas */ = {
 			isa = PBXGroup;
 			children = (
-				FAC00F421E24047B001FFC91 /* AppDelegate.swift */,
-				FAC00F441E24047B001FFC91 /* ViewController.swift */,
-				FAC00F461E24047B001FFC91 /* Main.storyboard */,
-				FAC00F491E24047B001FFC91 /* Assets.xcassets */,
-				FAC00F4B1E24047B001FFC91 /* LaunchScreen.storyboard */,
-				FAC00F4E1E24047B001FFC91 /* Info.plist */,
+				FAC00F5B1E24055F001FFC91 /* AppDelegate.swift */,
+				FAC00F5C1E24055F001FFC91 /* Assets.xcassets */,
+				FAC00F5D1E24055F001FFC91 /* LaunchScreen.storyboard */,
+				FAC00F5E1E24055F001FFC91 /* Main.storyboard */,
+				FAC00F5F1E24055F001FFC91 /* TexasViewController.swift */,
+				FAC00F601E24055F001FFC91 /* DemoURL.swift */,
+				FAC00F611E24055F001FFC91 /* ImageViewController.swift */,
+				FAC00F621E24055F001FFC91 /* Info.plist */,
 			);
 			path = Texas;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 				TargetAttributes = {
 					FAC00F3E1E24047B001FFC91 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC00F4D1E24047B001FFC91 /* LaunchScreen.storyboard in Resources */,
-				FAC00F4A1E24047B001FFC91 /* Assets.xcassets in Resources */,
-				FAC00F481E24047B001FFC91 /* Main.storyboard in Resources */,
+				FAC00F6A1E24055F001FFC91 /* Info.plist in Resources */,
+				FAC00F661E24055F001FFC91 /* Main.storyboard in Resources */,
+				FAC00F641E24055F001FFC91 /* Assets.xcassets in Resources */,
+				FAC00F651E24055F001FFC91 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +145,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC00F451E24047B001FFC91 /* ViewController.swift in Sources */,
-				FAC00F431E24047B001FFC91 /* AppDelegate.swift in Sources */,
+				FAC00F671E24055F001FFC91 /* TexasViewController.swift in Sources */,
+				FAC00F631E24055F001FFC91 /* AppDelegate.swift in Sources */,
+				FAC00F691E24055F001FFC91 /* ImageViewController.swift in Sources */,
+				FAC00F681E24055F001FFC91 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FAC00F461E24047B001FFC91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAC00F471E24047B001FFC91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAC00F4B1E24047B001FFC91 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAC00F4C1E24047B001FFC91 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FAC00F4F1E24047B001FFC91 /* Debug */ = {
@@ -258,10 +250,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Texas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xz.Texas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Texas/Texas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +265,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Texas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xz.Texas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Texas/Texas-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
